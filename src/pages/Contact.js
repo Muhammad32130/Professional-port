@@ -22,18 +22,19 @@ function Contact({ setRotateSpeed }) {
   }, []);
 
   const sendEmail = (e) => {
+    console.log(process.env.REACT_APP_SERVICE_ID)
     e.preventDefault();
     setIsSending(true);
     setRotateSpeed(60);
     emailjs
       .sendForm(
-        "gmail",
-        "template_dyvlfqm",
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+         
+
         form.current,
-        // process.env.REACT_APP_USER_ID
-        "user_UCVQB9AIUbJaobUtpSXnz"
+        process.env.REACT_APP_USER_ID
+        
       )
       .then(
         (res) => {
@@ -49,7 +50,7 @@ function Contact({ setRotateSpeed }) {
           setIsSending(false);
           setHeaderText({ text: "Something went wrong", modifier: "-error" });
           alert(
-            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at email@email.com"
+            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at askari.muhammad321@gmail.com"
           );
         }
       )
@@ -59,7 +60,7 @@ function Contact({ setRotateSpeed }) {
         setIsSending(false);
         setHeaderText({ text: "Something went wrong", modifier: "-error" });
         alert(
-          "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at email@email.com"
+          "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at askari.muhammad321@gmail.com"
         );
       });
   };

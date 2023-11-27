@@ -98,11 +98,11 @@ function About() {
     <div className="container" id="about">
       <div className="about__wrapper" data-aos="fade-down" data-aos-delay="50">
         <div className="about__left playfair">
-          I'm a highly motivated software engineer with a strong passion for
+          I'm a highly motivated frontend developer with a strong passion for
           website development.
         </div>
         <div className="about__right lato">
-          Currently employed as a software engineer at Canva, I work on
+          I have recently finished working on an internship, I work on
           extremely difficult engineering problems every day in a team
           consisting of some of the most talented and experienced software
           engineers.

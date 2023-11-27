@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "../assets/me.jpeg";
+import Me from "../assets/profile.jpg";
 import { FaDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -25,7 +25,7 @@ const Resume = () => {
           </div>
           <div>
             <div className="resume__name playfair">Muhammad Askari</div>
-            <div className="resume__title lato">Software Engineer</div>
+            <div className="resume__title lato">Frontend Developer</div>
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
@@ -43,7 +43,7 @@ const Resume = () => {
                 <AiFillLinkedin />
                 <a
                   className="resume__link"
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/muhammadaskari/"
                   target="_blank"
                 >
                   Linkedin
@@ -51,7 +51,7 @@ const Resume = () => {
               </div>
             </div>
             <div>
-              A highly motivated software engineer prepared to utilise
+              A highly motivated frontend developer prepared to utilise
               exceptional software, problem-solving and communication skills to
               further my programming passion as a website developer.
             </div>
