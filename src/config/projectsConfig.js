@@ -7,8 +7,8 @@ import NftThirdImage from "../assets/project-images/NFT/nft-phones-2.jpg";
 import TreactCoverImage from "../assets/project-images/adv intern/advcover2.png";
 import TreactFrontImage from "../assets/project-images/adv intern/adv-front.png";
 import TreactFirstImage from "../assets/project-images/adv intern/advdesktop.png";
-import TreactSecondImage from "../assets/project-images/treact/treact-phones-1.jpg";
-import TreactThirdImage from "../assets/project-images/treact/treact-phones-2.png";
+import TreactSecondImage from "../assets/project-images/adv intern/summaristphone2.png";
+import TreactThirdImage from "../assets/project-images/adv intern/advphone.png";
 
 import EcommerceCover from "../assets/project-images/ecommerce/ecommerce-cover.png";
 import EcommerceFrontImage from "../assets/project-images/ecommerce/ecommerce-front.png";
@@ -34,9 +34,9 @@ const projectsConfig = [
     title: "Summarist",
     type: "Web App",
     description:
-      "2Fair Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "https://jonathan6242.github.io/treact/",
-    githubLink: "https://jonathan6242.github.io/treact/",
+              "I developed an innovative web application that seamlessly integrates modern technologies to provide users with a captivating and feature-rich experience. Leveraging React for the frontend, TypeScript for enhanced type safety, Firebase for authentication and database services, and Stripe for secure payment processing, this platform offers a dynamic environment for users to explore, save, and listen to a curated collection of books.",
+    liveLink: "https://summarist-psi.vercel.app",
+    githubLink: "https://github.com/Muhammad32130/advanced",
     coverImage: TreactCoverImage,
     topImage: TreactFrontImage,
     firstImage: TreactFirstImage,
