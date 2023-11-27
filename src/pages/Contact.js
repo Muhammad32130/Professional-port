@@ -22,7 +22,6 @@ function Contact({ setRotateSpeed }) {
   }, []);
 
   const sendEmail = (e) => {
-    console.log(process.env.REACT_APP_SERVICE_ID)
     e.preventDefault();
     setIsSending(true);
     setRotateSpeed(60);
