@@ -1,31 +1,32 @@
 import React from "react";
-import FooterLogo from "../assets/footer-logo.svg";
+import FooterLogo from "../assets/project-images/initial-ma-letter-logo-vector-template-abstract-letter-ma-logo-design-minimalist-linked-letter-trendy-business-logo-design-vector-template-2BC05DM-removebg-preview-transformed.png";
 import { MdOutlineArrowUpward } from "react-icons/md";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
     <div className="footer__wrapper">
       <a href="#" className="footer__logo">
-        <img src={FooterLogo} alt="" />
+        <img className="invert" src={FooterLogo} alt="" />
         <span className="footer__scroll-top">
           Top <MdOutlineArrowUpward />
         </span>
       </a>
       <div className="footer__link--wrapper">
         <div>
-          <a href="">Github</a>
+          <a target="_blank" href="https://github.com/Muhammad32130">Github</a>
         </div>
         <div>
-          <a href="">LinkedIn</a>
+          <a target="_blank" href="https://www.linkedin.com/in/muhammadaskari/">LinkedIn</a>
         </div>
         <div>
-          <a href="">Email</a>
+          <a href="mailto:askari.muhammad321@gmail.com">Email</a>
         </div>
         <div>
-          <a href="">Resume</a>
+          <a href="/resume.pdf">Resume</a>
         </div>
       </div>
-      <div>Copyright &copy; 2022 David Bragg</div>
+      <div>Copyright &copy; 2022 Muhammad Askari</div>
     </div>
   );
 };

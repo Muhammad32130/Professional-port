@@ -46,7 +46,7 @@ const Resume = () => {
                   href="https://www.linkedin.com/in/muhammadaskari/"
                   target="_blank"
                 >
-                  Linkedin
+                  LinkedIn
                 </a>
               </div>
             </div>

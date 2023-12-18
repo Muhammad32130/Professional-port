@@ -1091,7 +1091,9 @@ nav.open {
 .resume__job {
   margin-bottom: 24px;
 }
-
+.invert{
+  filter: invert(1);
+}
 .resume__job--name {
   font-weight: 700;
   font-size: 18px;

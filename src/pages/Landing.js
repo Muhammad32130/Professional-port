@@ -113,7 +113,7 @@ export default function Landing() {
           <a target="_blank" rel="no-refferer" href="https://www.linkedin.com/in/muhammadaskari/">
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="/">
+          <a target="_blank" rel="no-refferer" href="/resume.pdf">
             <img src={resumeIcon} alt="resumeIcon" />
           </a>
         </div>
