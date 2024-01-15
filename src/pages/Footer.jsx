@@ -26,7 +26,7 @@ const Footer = () => {
           <a href="/resume.pdf">Resume</a>
         </div>
       </div>
-      <div>Copyright &copy; 2022 Muhammad Askari</div>
+      <div>Copyright &copy; 2024 Muhammad Askari</div>
     </div>
   );
 };

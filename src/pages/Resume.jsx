@@ -64,14 +64,15 @@ const Resume = () => {
             <div className="resume__education--wrapper">
               <div className="resume__education">
                 <div className="resume__job--name">
-                Frontend Simplified Bootcamp
+                Houston Community College
                 </div>
                 <div>
+                  Associate's Degree
                 Classes: HTML, CSS, JavaScript, React, TypeScript, Backend Development, Data Structures & Algorithms
-                Leadership: Support Technician to 200+ students
+                
                 </div>
               </div>
-              <div className="resume__job--date">2021 - 2023</div>
+              <div className="resume__job--date">2020 - 2022</div>
             </div>
             
             <div className="resume__education--wrapper">
@@ -83,7 +84,7 @@ const Resume = () => {
                 Advanced algorithms, data structures, memory management, software debugging techniques, web development and mobile app development, UI/UX
                 </div>
               </div>
-              <div className="resume__job--date">2022</div>
+              <div className="resume__job--date">May 2022</div>
             </div>
           </div>
         </div>

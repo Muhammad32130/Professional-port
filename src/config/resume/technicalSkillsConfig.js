@@ -1,11 +1,8 @@
 export const technicalSkillsConfig = [
+  "HTML",
+  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "JavaScript",
   "TypeScript",
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "React",
+  "Redux"
 ];
